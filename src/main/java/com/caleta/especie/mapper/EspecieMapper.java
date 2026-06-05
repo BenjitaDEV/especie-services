@@ -9,14 +9,14 @@ public class EspecieMapper {
     //CREATE
     public static Especie toModel(CreateEspecieRequest request){
         return new Especie(
-                0,
+                null,
                 request.nombre(),
                 request.enVeda()
                 );
     }
 
     //UPDATE
-    public static Especie toModel(long id, UpdateEspecieRequest request){
+    public static Especie toModel(Long id, UpdateEspecieRequest request){
         return new Especie(
                 id,
                 request.nombre(),

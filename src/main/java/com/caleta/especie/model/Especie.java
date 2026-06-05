@@ -26,7 +26,7 @@ public class Especie {
     public Especie(){}
 
     //constructor con parametros
-    public Especie(long id, String nombre, boolean enVeda) {
+    public Especie(Long id, String nombre, boolean enVeda) {
         this.id = id;
         this.nombre = nombre;
         this.enVeda = enVeda;
